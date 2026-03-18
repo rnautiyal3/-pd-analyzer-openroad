@@ -27,7 +27,7 @@ Tools & Technologies
 	•	TCL scripting
 	•	Sky130 PDK (via OpenLane flow)
 
-## Project Structure
+Project Structure
 pd-analyzer-openroad/
  ├── scripts/
  │    └── pd_analyzer.tcl
