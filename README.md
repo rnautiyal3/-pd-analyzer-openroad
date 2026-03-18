@@ -27,7 +27,10 @@ Tools & Technologies
 	•	TCL scripting
 	•	Sky130 PDK (via OpenLane flow)
 
-Project Structure
+
+## Project Structure
+
+```
 pd-analyzer-openroad/
  ├── scripts/
  │    └── pd_analyzer.tcl
@@ -35,7 +38,7 @@ pd-analyzer-openroad/
  │    └── sample_output.txt
  ├── run_commands.txt
  └── README.md
-
+```
  ## How It Works
 
 The script operates on a fully placed-and-routed design database (.odb) and performs analysis using:
