@@ -114,5 +114,3 @@ Author
 
 Rahul Nautiyal
 Physical Design / VLSI Enthusiast
-:::
-  
