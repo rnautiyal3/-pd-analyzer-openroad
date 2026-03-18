@@ -50,17 +50,27 @@ The script operates on a fully placed-and-routed design database (.odb) and perf
 
 1. Launch openroad
 2. Load design and constraints
-   ## Code
-   read_db <path_to_odb>
+  
+   ### Code
+
+```tcl
+read_db <path_to_odb>
 read_liberty <path_to_lib>
 read_sdc <path_to_sdc>
 set_propagated_clock [all_clocks]
+```
 
 3. Run Analyzer
-   ## Code
-   source scripts/pd_analyzer.tcl
+ ### Code
+
+```tcl
+source scripts/pd_analyzer.tcl
+```
+
 
 ## Sample Output
+
+```
 ===== PD ANALYZER =====
 
 Total Cells : 63143
@@ -72,6 +82,8 @@ worst slack 3.84
 tns 0.00
 
 ========================
+```
+
 
 ## Key Learnings
 	•	Handling OpenROAD design database (.odb)
